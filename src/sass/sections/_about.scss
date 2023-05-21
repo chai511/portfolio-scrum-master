@@ -77,3 +77,22 @@
     }
   }
 }
+
+.about__skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about__skill {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.5rem 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+
+  background: #eee;
+  color: #666;
+  border-radius: 5px;
+  font-weight: 500;
+}
